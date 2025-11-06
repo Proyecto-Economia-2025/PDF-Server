@@ -1,0 +1,12 @@
+@PDF_Server_HostAddress = http://localhost:5173
+
+POST {{PDF_Server_HostAddress}}/api/pdf/get-top-products
+Content-Type: application/json
+
+{
+  "param1": "valor1",
+  "param2": "valor2"
+}
+
+
+###
